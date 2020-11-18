@@ -10,6 +10,3 @@ jobs:
       - run: 
           name: Dependencias
           command: bundle install
-      - run: 
-          name: Imprime fecha
-          command: date
