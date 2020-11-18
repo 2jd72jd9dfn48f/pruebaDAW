@@ -8,8 +8,6 @@ jobs:
       - checkout
       
       - run: 
-          name: Saludos
-          command: echo Hello, world
-      - run: 
-          name: Imprime fecha
-          command: date
+          name: Dependencias
+          command: bundle install
+
