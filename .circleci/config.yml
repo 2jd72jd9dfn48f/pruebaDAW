@@ -5,11 +5,11 @@ jobs:
       - image: circleci/ruby:2.4.1-node-browsers
       
     steps:
-      -checkout
+      - checkout
       
-      - run:
+      - run: 
           name: Saludos
           command: echo Hello, world
-      - run:
+      - run: 
           name: Imprime fecha
           command: date
